@@ -37,6 +37,19 @@ wait()
 wait()
 bands = 0
 finish = 0
-while finish = 0:
+while finish == 0:
     bands = input ("Do you have more than 10 bands  Y/N ")
-    if bands
+    if bands == "Y":
+        print ("Dont lie to me")
+    elif bands == "N":
+        print ("Broke XD")
+        finish = 1
+    else:
+        print ("Y/N")
+person = input("How would you describe your personality? ")
+print (f"I would've said delusion, but I guess {person} works")
+job = input ("Whats your dream job? ")
+print (f"Dreaming of being a {job}? But you're already perfect at being unenployed")
+fear = input ("Whats your biggest fear? ")
+print (f"Your fear of {fear} is only passed by your fear of success")
+print ("bye bye")
