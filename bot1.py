@@ -37,6 +37,12 @@ wait()
 wait()
 bands = 0
 finish = 0
-while finish = 0:
+while finish == 0:
     bands = input ("Do you have more than 10 bands  Y/N ")
-    if bands
+    if bands == "Y":
+        print ("Dont lie to me")
+    elif bands == "N":
+        print ("Broke XD")
+        finish = 1
+    else:
+        print ("Y/N")
