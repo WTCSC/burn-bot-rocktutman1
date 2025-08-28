@@ -1,5 +1,6 @@
 import time
 import math
+
 name = input ("What is your name? ")
 age = int(input("How old are you? "))
 food = input ("What is your faviorate food? ")
@@ -11,11 +12,10 @@ if age > 11:
     print (f"You're {age} and still eating {food} like a {age-11} year old")
 else:
     print (f"Lil bro is {age}, not even 11 yet and already likes {food} XD")
-race = input ("What race are you? ")
-print ("Race is a low bar I'm not gonna say anything about that")
+pink = input ("What's your bench? ")
+print (f"Only {pink}? That's my lateral raise lil bro")
 print (f"I heard you like to {wpasstime}, yea, that makes sense, youre a lazy bum who cant even do some {lpasstime}")
-think = input ("What do you have to say about that? ")
-print(1)
+input ("How do you feel about that huh?")
 print (""" 
   _____       _             _                    _ _                            
  |_   _|     | |           | |                  | | |                           
@@ -47,7 +47,7 @@ while finish == 0:
     else:
         print ("Y/N")
 person = input("How would you describe your personality? ")
-print (f"I would've said delusion, but I guess {person} works")
+print (f"I would've said delusional, but I guess {person} works")
 job = input ("Whats your dream job? ")
 print (f"Dreaming of being a {job}? But you're already perfect at being unenployed")
 fear = input ("Whats your biggest fear? ")
